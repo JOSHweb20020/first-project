@@ -1,0 +1,18 @@
+.category-btn{
+  background: black;
+  color: white;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+ 
+}
+span{
+  margin-right: 7px;
+}
+
+.category-btn:hover{
+  background-color: red;
+  border-radius: 10px;
+  padding: 3px 10px;
+  transition: all 0.4s ease-in-out;
+}
